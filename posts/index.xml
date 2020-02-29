@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 崽崽的宝藏屋</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on 崽崽的宝藏屋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 01 Mar 2020 01:12:40 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何用Hugo搭建个人博客</title>
+      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Sun, 01 Mar 2020 01:12:40 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <description>安装Hugo ···win用户安装···</description>
+    </item>
+    
+  </channel>
+</rss>
