@@ -26,42 +26,54 @@
     
     
     <meta property="og:title" content="如何用Hugo搭建个人博客" />
-<meta property="og:description" content=" 安装Hugo  Mac安装方式
- hugo version```
- Windows安装方式
-   去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
+<meta property="og:description" content=" 安装Hugo 1.Mac安装方式  brew install hugo hugo version  2.Windows安装方式  去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
  解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH
  重启终端，运行hugo version查看版本
+  快速搭建博客 1.看文档搞出来网站  进入Hugo官网，点击Quick Start快速开始
+ 从Step2开始抄写代码，直到Step7
+ 得到一个public目录，这就是我们的博客站点
+ hugo server -D可以预览草稿
+ hugo server可以预览非草稿
+  2.预览网站  双击打开public/index.html发现不能预览，因为public/index.html不能使用文件协议预览。
+ 请使用hugo server预览。
   " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/" />
 <meta property="article:published_time" content="2020-03-01T01:12:40+08:00" />
 <meta property="article:modified_time" content="2020-03-01T01:12:40+08:00" />
 <meta itemprop="name" content="如何用Hugo搭建个人博客">
-<meta itemprop="description" content=" 安装Hugo  Mac安装方式
- hugo version```
- Windows安装方式
-   去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
+<meta itemprop="description" content=" 安装Hugo 1.Mac安装方式  brew install hugo hugo version  2.Windows安装方式  去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
  解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH
  重启终端，运行hugo version查看版本
+  快速搭建博客 1.看文档搞出来网站  进入Hugo官网，点击Quick Start快速开始
+ 从Step2开始抄写代码，直到Step7
+ 得到一个public目录，这就是我们的博客站点
+ hugo server -D可以预览草稿
+ hugo server可以预览非草稿
+  2.预览网站  双击打开public/index.html发现不能预览，因为public/index.html不能使用文件协议预览。
+ 请使用hugo server预览。
   ">
 
 
 <meta itemprop="datePublished" content="2020-03-01T01:12:40&#43;08:00" />
 <meta itemprop="dateModified" content="2020-03-01T01:12:40&#43;08:00" />
-<meta itemprop="wordCount" content="10">
+<meta itemprop="wordCount" content="28">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="如何用Hugo搭建个人博客"/>
-<meta name="twitter:description" content=" 安装Hugo  Mac安装方式
- hugo version```
- Windows安装方式
-   去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
+<meta name="twitter:description" content=" 安装Hugo 1.Mac安装方式  brew install hugo hugo version  2.Windows安装方式  去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
  解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH
  重启终端，运行hugo version查看版本
+  快速搭建博客 1.看文档搞出来网站  进入Hugo官网，点击Quick Start快速开始
+ 从Step2开始抄写代码，直到Step7
+ 得到一个public目录，这就是我们的博客站点
+ hugo server -D可以预览草稿
+ hugo server可以预览非草稿
+  2.预览网站  双击打开public/index.html发现不能预览，因为public/index.html不能使用文件协议预览。
+ 请使用hugo server预览。
   "/>
 
   </head>
@@ -157,16 +169,13 @@
 
 <h1 id="安装hugo">安装Hugo</h1>
 
-<ol>
-<li><p>Mac安装方式</p>
+<h4 id="1-mac安装方式">1.Mac安装方式</h4>
 
-<pre><code class="language-brew"> 
+<pre><code>       brew install hugo
+       hugo version
 </code></pre>
 
-<p>hugo version```</p></li>
-
-<li><p>Windows安装方式</p></li>
-</ol>
+<h4 id="2-windows安装方式">2.Windows安装方式</h4>
 
 <ul>
 <li><p>去Hugo releases页面下载hugo_xxx_Windows_64bit.zip</p></li>
@@ -174,6 +183,30 @@
 <li><p>解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH</p></li>
 
 <li><p>重启终端，运行hugo version查看版本</p></li>
+</ul>
+
+<h1 id="快速搭建博客">快速搭建博客</h1>
+
+<h4 id="1-看文档搞出来网站">1.看文档搞出来网站</h4>
+
+<ul>
+<li><p>进入Hugo官网，点击Quick Start快速开始</p></li>
+
+<li><p>从Step2开始抄写代码，直到Step7</p></li>
+
+<li><p>得到一个public目录，这就是我们的博客站点</p></li>
+
+<li><p>hugo server -D可以预览草稿</p></li>
+
+<li><p>hugo server可以预览非草稿</p></li>
+</ul>
+
+<h4 id="2-预览网站">2.预览网站</h4>
+
+<ul>
+<li><p>双击打开public/index.html发现不能预览，因为public/index.html不能使用文件协议预览。</p></li>
+
+<li><p>请使用hugo server预览。</p></li>
 </ul>
 <ul class="pa0">
   
