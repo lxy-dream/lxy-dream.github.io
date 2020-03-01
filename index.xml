@@ -17,9 +17,13 @@
       <pubDate>Sun, 01 Mar 2020 01:12:40 +0800</pubDate>
       
       <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>安装Hugo 1.Mac安装方式
+      <description> 安装Hugo  Mac安装方式
  hugo version```
-2.Windows安装方式 *去Hugo releases页面下载hugo_xxx_Windows_64bit.zip *解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH *重启终端，运行hugo version查看版本</description>
+ Windows安装方式
+   去Hugo releases页面下载hugo_xxx_Windows_64bit.zip
+ 解压，把hugo.exe放到D:\Software\hugo\hugo.exe,并且把D:\Software\hugo加到PATH
+ 重启终端，运行hugo version查看版本
+  </description>
     </item>
     
   </channel>
